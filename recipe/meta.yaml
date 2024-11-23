@@ -1,5 +1,5 @@
 {% set name = "fair" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0c527bf85eb71800133556f88159d1ee92c1b0a797b5d2c66f7cd98c2e01657b
+  sha256: 8e1ff72e09a577eec152a27727a236045462c41e6927011bc4715135efb3693f
 
 build:
   number: 0
